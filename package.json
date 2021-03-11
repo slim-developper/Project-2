@@ -1,0 +1,17 @@
+{
+  "name": "trainning-mern-part1-and-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"  cd server && npm run dev  \"       \"   cd client && npm start   \"  "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
