@@ -18,6 +18,7 @@ app.use('/' , router)
 const CONNECTION_URL = 'mongodb+srv://javascriptmaster:k8Nmw48Fotd0k9TA@cluster0.ibwb3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const PORT = process.env.PORT|| 8001;
 //password:k8Nmw48Fotd0k9TA
+//password_partthree:7MChiqW2giKrgu35
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true },(err)=>{
 
 err? console.log(err) : console.log('DATABASE CONNECTED SUCCESSFULLY')
